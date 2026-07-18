@@ -19,7 +19,7 @@ import mlflow
 
 # ─── CONFIG ──────────────────────────────────────────────────────
 # Folder where YOLO saved this training run (contains results.csv and weights/best.pt)
-RUN_FOLDER = r"D:\al_test\pythonXvs\runs\detect\runs\traffic_sign_yolo"
+RUN_FOLDER = r".\Model"
 
 RESULTS_CSV = os.path.join(RUN_FOLDER, "results.csv")
 BEST_MODEL_PATH = os.path.join(RUN_FOLDER, "weights", "best.pt")
