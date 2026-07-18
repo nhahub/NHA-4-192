@@ -22,7 +22,7 @@ import mlflow
 RUN_FOLDER = r".\Model"
 
 RESULTS_CSV = os.path.join(RUN_FOLDER, "results.csv")
-BEST_MODEL_PATH = os.path.join(RUN_FOLDER, "weights", "best.pt")
+BEST_MODEL_PATH = os.path.join(RUN_FOLDER, "best.pt")
 
 # Hyperparameters from your training notebook (cell 2)
 HYPERPARAMS = {
